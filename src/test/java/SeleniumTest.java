@@ -19,13 +19,9 @@ public class SeleniumTest {
     }
     @Test
     void testSteps() throws InterruptedException {
-        driver.findElement(By.xpath("//*[@id='APjFqb']")).sendKeys("Manchester United");
+        driver.findElement(By.xpath("//*[@id='APjFqb']")).sendKeys("ChatGPT");
         Thread.sleep(2000);
 
-        String a="Swapnil";
-        String b="Swapnil";
-
-        Assert.assertEquals(a,b);
     }
     @AfterTest
     void afterTest(){
