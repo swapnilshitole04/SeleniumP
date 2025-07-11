@@ -16,5 +16,4 @@ public class HomePage {
     public static void click_searchedElement(){
         driver.findElement(By.xpath(searchedElement_xpath)).click();
     }
-
 }
